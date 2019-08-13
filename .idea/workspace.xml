@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="000078f5-1c97-4474-8b88-381c2c016525" name="Default Changelist" comment="" />
+    <list default="true" id="000078f5-1c97-4474-8b88-381c2c016525" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Aulas/Accessor.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/array.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/cString.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/condic.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/entrada.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/hashes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/instancias.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/loop.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/pessoa.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/pessoasb.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/relac.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/simb.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/strings.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/teste.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +30,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PKn0sktCvlytwUdQcIrwGOwSuR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -142,6 +161,7 @@
       <updated>1565631436577</updated>
       <workItem from="1565631443907" duration="313000" />
       <workItem from="1565638289014" duration="2000" />
+      <workItem from="1565723280711" duration="3113000" />
     </task>
     <servers />
   </component>
@@ -153,7 +173,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
