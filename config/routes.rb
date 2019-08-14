@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'hello/index'
   resources :moedas
   resources :coins
   get 'home/html'
