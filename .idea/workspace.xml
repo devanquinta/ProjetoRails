@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000078f5-1c97-4474-8b88-381c2c016525" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/Accessor.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/array.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/cString.rb" afterDir="false" />
@@ -18,18 +16,11 @@
       <change afterPath="$PROJECT_DIR$/Aulas/simb.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/strings.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/teste.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/coins.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/coins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/coins_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/coins.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/coin_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/coins_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projeto.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/moedas/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/moedas/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/moedas/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/moedas/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,10 +38,11 @@
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/welcome" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/welcome" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
@@ -179,7 +171,7 @@
       <workItem from="1565631443907" duration="313000" />
       <workItem from="1565638289014" duration="2000" />
       <workItem from="1565723280711" duration="3964000" />
-      <workItem from="1565785076770" duration="3980000" />
+      <workItem from="1565785076770" duration="12445000" />
     </task>
     <servers />
   </component>
