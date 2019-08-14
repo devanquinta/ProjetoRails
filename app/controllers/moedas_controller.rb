@@ -1,4 +1,6 @@
 class MoedasController < ApplicationController
+  # layout "adm" layout do ambiente
+
   before_action :set_moeda, only: [:show, :edit, :update, :destroy]
 
   # GET /moedas
@@ -9,7 +11,7 @@ class MoedasController < ApplicationController
 
   # GET /moedas/1
   # GET /moedas/1.json
-  def show
+  def showyout "adm"
   end
 
   # GET /moedas/new

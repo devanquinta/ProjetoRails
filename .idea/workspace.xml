@@ -16,12 +16,13 @@
       <change afterPath="$PROJECT_DIR$/Aulas/simb.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/strings.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/teste.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/hello/_menu_html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/adm.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/moedas_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/moedas_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/hello/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/hello/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/moedas/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/moedas/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +194,7 @@
       <workItem from="1565631443907" duration="313000" />
       <workItem from="1565638289014" duration="2000" />
       <workItem from="1565723280711" duration="3964000" />
-      <workItem from="1565785076770" duration="18927000" />
+      <workItem from="1565785076770" duration="22504000" />
     </task>
     <servers />
   </component>
