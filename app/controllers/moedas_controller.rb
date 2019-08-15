@@ -1,5 +1,4 @@
 class MoedasController < ApplicationController
-  # layout "adm" layout do ambiente
 
   before_action :set_moeda, only: [:show, :edit, :update, :destroy]
 

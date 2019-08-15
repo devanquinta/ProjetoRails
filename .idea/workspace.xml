@@ -17,8 +17,12 @@
       <change afterPath="$PROJECT_DIR$/Aulas/strings.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/teste.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/moedas_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/moedas_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/moedas/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/moedas/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/moedas/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/moedas/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,6 +196,7 @@
       <workItem from="1565723280711" duration="3964000" />
       <workItem from="1565785076770" duration="22948000" />
       <workItem from="1565872055136" duration="2033000" />
+      <workItem from="1565874734677" duration="9170000" />
     </task>
     <servers />
   </component>
