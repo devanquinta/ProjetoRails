@@ -11,9 +11,6 @@ class MoedasController < ApplicationController
 
   # GET /moedas/1
   # GET /moedas/1.json
-  def showyout "adm"
-  end
-
   # GET /moedas/new
   def new
     @moeda = Moeda.new
