@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000078f5-1c97-4474-8b88-381c2c016525" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Aulas/Accessor.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/array.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/cString.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/condic.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/entrada.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/hashes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/instancias.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/loop.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/pessoa.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/pessoasb.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/relac.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/simb.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/strings.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aulas/teste.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/moedas_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/moedas_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/moedas/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/moedas/index.html.erb" afterDir="false" />
+>>>>>>> testes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +39,13 @@
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/welcome" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/welcome" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -33,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: projeto">
+  <component name="RunManager" selected="Ruby.pessoa">
     <configuration name="Development: projeto" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="projeto" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -131,6 +157,28 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_VERBOSE" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="pessoa" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/tmp" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/tmp/pessoa.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.pessoa" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -145,6 +193,9 @@
       <updated>1565631436577</updated>
       <workItem from="1565631443907" duration="313000" />
       <workItem from="1565638289014" duration="2000" />
+      <workItem from="1565723280711" duration="3964000" />
+      <workItem from="1565785076770" duration="22948000" />
+      <workItem from="1565872055136" duration="2033000" />
     </task>
     <servers />
   </component>
