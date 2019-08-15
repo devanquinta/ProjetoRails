@@ -6,19 +6,59 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Moeda.create!(
-          description: "Bitcoin",
-          acronym: "BTC",
-          url_image: "https://banner2.kisspng.com/20180604/zya/kisspng-bitcoin-com-cryptocurrency-logo-zazzle-kibuba-btc-5b15aa1f157d09.468430171528146463088.jpg"
-)
 
+
+spinner = TTY::Spinner.new("[:spinner] Cadastrando moedas...")
+spinner.auto_spin
+
+moeda = [
+    {
+        description: "Bitcoin",
+        acronym: "BTC",
+        url_image: "https://imagepng.org/wp-content/uploads/2017/06/moeda-bitcoin-coin.png"
+    },
+
+    {
+        description: "Ethereum",
+        acronym: "ETC",
+        url_image: "https://www.stickpng.com/assets/images/5a7593fc64538c292dec1bbf.png"
+    },
+
+    {
+        description: "Dash",
+        acronym: "DASH",
+        url_image: "https://media.dash.org/wp-content/uploads/Dash-D-blue_on_midnight_blue_circle.png"
+    }
+]
+
+moeda.each do |coins|
+  sleep(1)
+  Moeda.find_or_create_by!(coins)
+end
+
+spinner.success("concluido!")
+
+=begin
 Moeda.create!(
-    description: "Ethereum",
-    acronym: "ETC",
-    url_image: "https://banner2.kisspng.com/20180607/uer/kisspng-ethereum-cryptocurrency-computer-icons-blockchain-token-coin-5b1984f70fb9f3.6502685715283990950644.jpg"
+      [
+          {
+              description: "Bitcoin",
+              acronym: "BTC",
+              url_image: "https://imagepng.org/wp-content/uploads/2017/06/moeda-bitcoin-coin.png"
+          },
+
+          {
+              description: "Ethereum",
+              acronym: "ETC",
+              url_image: "https://www.stickpng.com/assets/images/5a7593fc64538c292dec1bbf.png"
+          },
+
+          {
+              description: "Dash",
+              acronym: "DASH",
+              url_image: "https://media.dash.org/wp-content/uploads/Dash-D-blue_on_midnight_blue_circle.png"
+          }
+      ]
 )
-Moeda.create!(
-    description: "Dash",
-    acronym: "DASH",
-    url_image: "https://media.dash.org/wp-content/uploads/Dash-D-blue_on_midnight_blue_circle.png"
-)
+=end
+
