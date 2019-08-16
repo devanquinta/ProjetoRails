@@ -16,12 +16,11 @@
       <change afterPath="$PROJECT_DIR$/Aulas/simb.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/strings.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/teste.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190814132454_create_moedas.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190814132454_create_moedas.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190815184254_create_mining_types.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190815184254_create_mining_types.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/coin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/moeda.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/moeda.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

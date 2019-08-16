@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_15_184254) do
+ActiveRecord::Schema.define(version: 2019_08_16_185110) do
 
   create_table "coins", force: :cascade do |t|
     t.string "description"
@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(version: 2019_08_15_184254) do
     t.string "mining_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "mining_type_id"
+    t.index ["mining_type_id"], name: "index_moedas_on_mining_type_id"
   end
 
 end
