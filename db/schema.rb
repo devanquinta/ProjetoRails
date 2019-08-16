@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 2019_08_15_184254) do
     t.string "description"
     t.string "acronym"
     t.string "url_image"
+    t.string "mining_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
