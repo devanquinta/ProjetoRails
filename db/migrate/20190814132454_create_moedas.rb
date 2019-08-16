@@ -4,6 +4,7 @@ class CreateMoedas < ActiveRecord::Migration[5.2]
       t.string :description
       t.string :acronym
       t.string :url_image
+      t.string :mining_type
 
       t.timestamps
     end

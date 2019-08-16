@@ -1,25 +1,37 @@
-<h1>Seja bem vindo</h1>
-<%= data_br(Date.today)%>
-<p><strong>A data de hoje é: </strong> <%= data_br(Date.today)%> </p>
-<h1>Vander Quintanilha</h1>
-<p> A soma é : <%= 1 + 1 =%> </p>
-<p> Seu nome de tras para frente é: <%= "Vander".reverse=%> </p>
-<% a= "minha variavel" %>
-<p> Imprimrndo a variavel: <%= a =%> </p>
-<p> A data de hoje é: <%= Date.today %> </p>
+<!--<h1>Seja bem vindo</h1>-->
+<%#= data_br(Date.today)%>
+<!--<p><strong>A data de hoje é: </strong> <%#= data_br(Date.today)%> </p>-->
+<!--<h1>Vander Quintanilha</h1>-->
+<!--<p> A soma é : <%#= 1 + 1 =%> </p>-->
+<!--<p> Seu nome de tras para frente é: <%#= "Vander".reverse=%> </p>-->
+<%# a= "minha variavel" %>
+<!--<p> Imprimrndo a variavel: <%#= a =%> </p>-->
+<!--<p> A data de hoje é: <%#= Date.today %> </p>-->
 
-<ul>
-  <li>
-    <a href="www.google.com.br">Google</a> <br>
-    <a href="http://localhost:3000/moedas">Cadastro de Moedas</a><br>
-    <%= link_to "Cadastro de moedas" , "/moedas"%>
-    <%= %>
-  </li>
-  <li>
-   <%= link_to "Home" , "/welcome"%>
-  </li>
-   <br>
-    <img src="https://img.ibxk.com.br/2018/08/29/29194642940337.jpg?w=1120&h=420&mode=crop&scale=both" width="500px" height="400px" />
-</ul>
+<!--<ul>-->
+<!--  <li>-->
+<!--    <a href="www.google.com.br">Google</a> <br>-->
+<!--    <a href="http://localhost:3000/moedas">Cadastro de Moedas</a><br>-->
+    <%#= link_to "Cadastro de moedas" , "/moedas"%>
+    <%#= %>
+<!--  </li>-->
+<!--  <li>-->
+   <%#= link_to "Home" , "/welcome"%>
+<!--  </li>-->
+<!--   <br>-->
+<!--    <img src="https://img.ibxk.com.br/2018/08/29/29194642940337.jpg?w=1120&h=420&mode=crop&scale=both" width="500px" height="400px" />-->
+<!--</ul>-->
+
+<div class="jumbotron">
+  <h1 class="display-4"><%= t('Bem vindos') %></h1><br>
+  <h2 class="lead"><%= t('messages.welcome')%></h2>
+  <hr class="my-4">
+  <p><%= t('messages.menu')%></p>
+  <h3><%= render "menu" %></h3>
+</div>
+
+<!--# adicionando relacionamento entre tabelas-->
 
 
+<!--rails g migration AddMiningTypeToTabelas->-->
+<!--mining_tabela:references-->

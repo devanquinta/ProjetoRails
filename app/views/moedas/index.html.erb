@@ -21,7 +21,7 @@
         <td><%= moeda.acronym %></td>
         <td><%= moeda.url_image %></td>
         <td><img src="<%= moeda.url_image %>" width="50px" height="50px"></td>
-        <td><%= link_to 'Mostrar', moeda %>form.html.erb</td>
+        <td><%= link_to 'Mostrar', moeda %></td>
         <td><%= link_to 'Editar', edit_moeda_path(moeda) %></td>
         <td><%= link_to 'Apagar', moeda, method: :delete, data: { confirm: 'Tem certeza?' } %></td>
         <br>
@@ -33,3 +33,4 @@
 <br>
 
 <%= link_to 'Nova Moeda', new_moeda_path %>
+
