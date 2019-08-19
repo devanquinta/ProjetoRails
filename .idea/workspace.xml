@@ -16,11 +16,26 @@
       <change afterPath="$PROJECT_DIR$/Aulas/simb.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/strings.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Aulas/teste.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/locale.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/pt-BR.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/pt-BR_models.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/coin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/moedas_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/moedas_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/mining_type.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/mining_type.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/moeda.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/moeda.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/mining_types/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/moedas/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/moedas/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/moedas/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/moedas/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/_menu.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/_menu.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190814132057_create_coins.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -198,6 +213,7 @@
       <workItem from="1565872055136" duration="2033000" />
       <workItem from="1565874734677" duration="19842000" />
       <workItem from="1565959593767" duration="18609000" />
+      <workItem from="1566218130041" duration="22661000" />
     </task>
     <servers />
   </component>

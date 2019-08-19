@@ -23,11 +23,24 @@
 <!--</ul>-->
 
 <div class="jumbotron">
+  <p>idioma:<%= locale(I18n.locale)%> </p><!---Tradução----> <!---Na viw pode ser t("chave")-->
+
+ <strong><%=I18n.l(Date.today)%></strong> <!---Transformando data local---->
+  <p>
+    <%= link_to 'Idiomas portugues', '/?locale=pt-BR'%>
+  </p>
+  <p>
+    <%= link_to 'English', '/?locale=en'%>
+  </p>
+  <p><%= I18n.t("abc") %></p>
+  <br><br>
   <h1 class="display-4"><%= t('Bem vindos') %></h1><br>
-  <h2 class="lead"><%= t('messages.welcome')%></h2>
+  <h2 class="lead"><%= t('messages.cripto moedas')%></h2>
   <hr class="my-4">
   <p><%= t('messages.menu')%></p>
   <h3><%= render "menu" %></h3>
+  <br>
+  <hr class="my-4">
 </div>
 
 <!--# adicionando relacionamento entre tabelas-->

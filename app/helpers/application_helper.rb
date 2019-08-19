@@ -3,6 +3,14 @@ module ApplicationHelper
     data_us.strftime("%d/%m/%Y")
   end
 
+  def locale(loacle)
+    if I18n.locale == :en
+      "Usa"
+    else
+      "Portugues-BR"
+    end
+  end
+
   def nome_aplicacao
     "Cripto moeda"
   end

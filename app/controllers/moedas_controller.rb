@@ -1,6 +1,7 @@
 class MoedasController < ApplicationController
 
   before_action :set_moeda, only: [:show, :edit, :update, :destroy]
+  before_action :set_mining_type_options, only: [:new,:create, :edit, :update]
 
   # GET /moedas
   # GET /moedas.json
@@ -60,6 +61,10 @@ class MoedasController < ApplicationController
   end
 
   private
+
+  def set_mining_type_options
+    @mining_type_options = MiningType.all.pluck(:name, :id)#####################33
+  end
     # Use callbacks to share common setup or constraints between actions.
     def set_moeda
       @moeda = Moeda.find(params[:id])
@@ -67,6 +72,6 @@ class MoedasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def moeda_params
-      params.require(:moeda).permit(:description, :acronym, :url_image)
+      params.require(:moeda).permit(:description, :acronym, :url_image, :mining_types_id)
     end
 end
