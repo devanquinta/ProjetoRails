@@ -12,13 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2019_08_16_185110) do
 
-  create_table "coins", force: :cascade do |t|
-    t.string "description"
-    t.string "acronym"
-    t.string "url_image"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "mining_types", force: :cascade do |t|
     t.string "name"
